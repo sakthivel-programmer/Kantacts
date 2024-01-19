@@ -1,0 +1,22 @@
+.loading{
+    position: absolute;
+    top: 0;
+    left: 45%;
+    bottom: 0;
+    margin: auto 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 7px solid black;
+    border-bottom-color:transparent;
+    animation: rotate .5s linear infinite;
+    z-index: 3;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

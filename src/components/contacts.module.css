@@ -1,0 +1,62 @@
+.list{
+    position: relative;
+    top: 90px;
+    width: 90%;
+    margin: auto;
+    
+}
+.item{
+    height: auto;
+    width: 100%;
+    display: block;
+    background-color: white;
+    padding: 10px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.item :where(h2){
+    color: #101010;
+}
+.item :where(h4){
+    color: gray;
+}
+.buttons{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.deleteBtn{
+    height: 30px;
+    width: 100px;
+    background-color: #FF2400;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.deleteBtn:hover{
+    scale: .9;
+}
+.updateBtn{
+    height: 30px;
+    width: 100px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 10px;
+    color: #101010;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.updateBtn:hover{
+    scale: .9;
+}

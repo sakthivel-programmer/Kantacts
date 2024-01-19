@@ -1,0 +1,12 @@
+.navbar{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: lightsalmon;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    z-index: 2;
+}
