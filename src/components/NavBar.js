@@ -7,7 +7,7 @@ export function Navbar(){
 
         <div className={Styles.navbar}>
 
-            <h1>ContactList</h1>
+            <h1>Kantacts</h1>
 
         </div>
 
